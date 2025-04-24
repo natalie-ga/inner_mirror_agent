@@ -1,4 +1,4 @@
-# LLM Project
+# Inner Mirror Agent
 
 This project is a journaling agent that uses OpenAI's GPT-4 and integrates with YouTube and SQLite.
 
