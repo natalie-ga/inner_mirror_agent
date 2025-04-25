@@ -8,7 +8,8 @@ from textblob import TextBlob
 import re 
 
 # === Load environment variables ===
-load_dotenv()
+load_dotenv(dotenv_path="../.env")
+print("🔍 Loaded key:", os.getenv("OPENAI_API_KEY"))
 openai.api_key = os.getenv("OPENAI_API_KEY")
 youtube_api_key = os.getenv("YOUTUBE_API_KEY")
 
