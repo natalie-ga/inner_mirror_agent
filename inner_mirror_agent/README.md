@@ -65,12 +65,3 @@
 - Improve contextual memory over multiple sessions
 
 ---
-
-## 🧘‍♀️ Philosophy
-
-Inner Mirror is more than just an AI — it's a soft place to land.
-A quiet space for noticing how you really feel.
-
----
-
-*Made with care by Natalie Gabay 💛*
