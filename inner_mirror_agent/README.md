@@ -38,6 +38,16 @@
    OPENAI_API_KEY=your-openai-api-key
    YOUTUBE_API_KEY=your-youtube-api-key
    ```
+   ***How to get your YouTube API Key***
+   1. Go to the [Google Cloud Console – Credentials](https://console.cloud.google.com/apis/credentials)
+   2. Make sure you’re in the project where you enabled the YouTube Data API v3
+   3. Click on the "+ Create Credentials" button
+   4. Select "API key"
+   5. The key will be created immediately – copy it
+   6. Add it to your .env file like this:
+   ```
+   YOUTUBE_API_KEY=AIzaSyB...your-key-here
+   ```
 
 5. **Launch the app**:
    ```bash
