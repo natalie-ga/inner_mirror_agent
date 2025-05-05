@@ -1,21 +1,21 @@
 
-# 🌿 Inner Mirror Agent
+# Inner Mirror Agent
 
 **Inner Mirror** is a calm, reflective journaling agent designed to support emotional well-being through guided conversations. It helps users process thoughts, track moods, and gently reflect on their experiences — just like talking to a wise, empathetic friend.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🧠 **Mood Analysis** – Understands your emotional tone using sentiment analysis.
-- 💬 **Reflection Engine** – Generates thoughtful responses based on your mood and journal entry.
-- 📼 **YouTube Integration** – Recommends relevant calming or motivational videos (only when requested).
-- 📓 **Journal Memory** – Saves emotional insights and responses to a local SQLite database (journal.db).
-- 🧪 **Test Environment** – Includes a controlled testing setup for development and debugging.
+- **Mood Analysis** – Understands your emotional tone using sentiment analysis.
+- **Reflection Engine** – Generates thoughtful responses based on your mood and journal entry.
+- **YouTube Integration** – Recommends relevant calming or motivational videos (only when requested).
+- **Journal Memory** – Saves emotional insights and responses to a local SQLite database (journal.db).
+- **Test Environment** – Includes a controlled testing setup for development and debugging.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone this repository** and navigate into the agent directory:
    ```bash
@@ -67,7 +67,7 @@
 
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Add user authentication and encrypted journal storage
 - Implement emotion trends visualization
