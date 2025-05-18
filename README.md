@@ -1,4 +1,3 @@
-
 # Inner Mirror Agent
 
 **Inner Mirror** is a calm, reflective journaling agent designed to support emotional well-being through guided conversations. It helps users process thoughts, track moods, and gently reflect on their experiences — just like talking to a wise, empathetic friend.
@@ -9,8 +8,12 @@
 
 - **Mood Analysis** – Understands your emotional tone using sentiment analysis.
 - **Reflection Engine** – Generates thoughtful responses based on your mood and journal entry.
-- **YouTube Integration** – Recommends relevant calming or motivational videos (only when requested).
+- **YouTube Tool Integration** – Offers multiple video-related tools:
+  - **Video Search** – Find videos on specific topics when requested
+  - **Trending Videos** – Discover popular videos in different categories
+  - **Mood-Based Recommendations** – Get video suggestions tailored to your current mood
 - **Journal Memory** – Saves emotional insights and responses to a local SQLite database (journal.db).
+- **Enhanced UI** – Beautiful, user-friendly interface with examples and journaling tips.
 - **Test Environment** – Includes a controlled testing setup for development and debugging.
 
 ---
@@ -40,7 +43,7 @@
    ```
    ***How to get your YouTube API Key***
    1. Go to the [Google Cloud Console – Credentials](https://console.cloud.google.com/apis/credentials)
-   2. Make sure you’re in the project where you enabled the YouTube Data API v3
+   2. Make sure you're in the project where you enabled the YouTube Data API v3
    3. Click on the "+ Create Credentials" button
    4. Select "API key"
    5. The key will be created immediately – copy it
@@ -54,6 +57,12 @@
    python main.py
    ```
 
+6. **Run tests**:
+   ```bash
+   python -m tests.test_environment
+   python -m tests.test_mood_analysis
+   ```
+
 ---
 
 ## 🛠 Tech Stack
@@ -61,7 +70,7 @@
 - Python
 - OpenAI API
 - YouTube Data API
-- Gradio (for future web UI)
+- Gradio (for web UI)
 - SQLite (for local journal database)
 - TextBlob (for sentiment analysis)
 
@@ -71,7 +80,6 @@
 
 - Add user authentication and encrypted journal storage
 - Implement emotion trends visualization
-- Integrate voice input/output (optional)
 - Improve contextual memory over multiple sessions
 
 ---
