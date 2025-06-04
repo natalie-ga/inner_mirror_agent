@@ -35,14 +35,14 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mdurl==0.1.2
 nltk==3.9.1
-numpy==2.2.5
+numpy>=1.22,<2.0
 openai>=1.0.0
 orjson==3.10.16
 packaging==25.0
-pandas==2.2.3
-pillow==11.2.1
+pandas>=2.0.0
+pillow>=9.0.0,<11.0.0
 proto-plus==1.26.1
-protobuf==6.30.2
+protobuf>=3.20,<6.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
 pydantic==2.11.3
@@ -57,7 +57,7 @@ pytz==2025.2
 PyYAML==6.0.2
 regex==2024.11.6
 requests==2.32.3
-rich==14.0.0
+rich>=10.14.0,<14.0
 rsa==4.9.1
 ruff==0.11.6
 safehttpx==0.1.6
